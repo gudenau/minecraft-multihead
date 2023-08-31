@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "multihead",
+	"version": "${version}",
+	"name": "MultiHead",
+	"description": "Because who only has one monitor now-a-days?",
+	"authors": [
+		"gudenau"
+	],
+	"contact": {
+	},
+	"icon": "assets/multihead/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"net.gudenau.minecraft.multihead.MultiHead"
+		]
+	},
+	"mixins": [
+		"multihead.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17"
+	}
+}

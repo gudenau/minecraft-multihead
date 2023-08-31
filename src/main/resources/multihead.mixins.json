@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "net.gudenau.minecraft.multihead.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "GameRendererAccessor",
+    "GameRendererMixin",
+    "MinecraftClientMixin",
+    "RenderSystemMixin",
+    "RotatingCubeMapRendererAccessor",
+    "TitleScreenAccessor",
+    "VertexBufferAccessor",
+    "VertexFormatAccessor",
+    "WindowMixin"
+  ]
+}
